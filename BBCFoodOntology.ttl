@@ -13,7 +13,7 @@
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc:      <http://purl.org/dc/elements/1.1/> .
-@prefix provenance:  <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix provenance:  <https://www.bbc.co.uk/ontologies/provenance/> .
 
 ############################################################################
 # General description of the schema
@@ -35,6 +35,7 @@ fo:
     provenance:slug "fo"^^xsd:string ;
     provenance:version "1.1"^^xsd:double ;
     provenance:public "true"^^xsd:boolean ;
+    owl:imports vs: , dc: , dcterms: , foaf:;
     owl:priorVersion <http://purl.org/ontology/fo/1.0> ;
     owl:versionIRI <http://purl.org/ontology/fo/1.1> ;
     owl:versionInfo "1.1"^^xsd:string .
