@@ -1,0 +1,12 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbc: <http://dbpedia.org/resource/Category:>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX fo: <http://purl.org/ontology/fo/>
+CONSTRUCT { 
+  	fo:Mediterranean_cuisine rdf:subclassof fo:cuisine.
+	?subject rdf:subclassof fo:Mediterranean_cuisine
+  	
+} 
+WHERE {
+  	?subject skos:broader dbc:Mediterranean_cuisine .
+} 
