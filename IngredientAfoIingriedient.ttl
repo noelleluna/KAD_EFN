@@ -1,11 +1,31 @@
+@prefix fo: <http://purl.org/ontology/fo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rec: <yummly.com/> .
+@prefix rec: <http://yummly.com/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix fo: <http://purl.org/ontology/fo/Ingredient>
+
+<http://yummly.com/(5-ingredient)_Italian_Caprese_Pasta> a fo:Recipe .
+
+rec:Baba_Ghanoush_Topped_with_Lamb_and_Yogurt a fo:Recipe .
+
+rec:Braised_Italian_Pot_Roast a fo:Recipe .
+
+rec:Easy_Garlic_and_Lemon_Shrimp a fo:Recipe .
+
+rec:Easy_Peasy_Skillet_Lasagna a fo:Recipe .
+
+rec:Italian_Chicken_Panini a fo:Recipe .
 
 rec:Italian_bread a fo:Ingredient .
+
+<http://yummly.com/Macaroni_with_Greens,_Lemon,_and_Parmesan> a fo:Recipe .
+
+rec:Mediterranean_Pork_Chops a fo:Recipe .
+
+rec:Spaghetti_Aglio_e_Olio a fo:Recipe .
+
+rec:Spinach_and_Ricotta_with_Shells a fo:Recipe .
 
 rec:angel_hair a fo:Ingredient .
 
@@ -21,7 +41,7 @@ rec:cherry_tomatoes a fo:Ingredient .
 
 rec:chicken_breasts a fo:Ingredient .
 
-<yummly.com/clove_garlic,_fine_chop> a fo:Ingredient .
+<http://yummly.com/clove_garlic,_fine_chop> a fo:Ingredient .
 
 rec:cooking_spray a fo:Ingredient .
 
