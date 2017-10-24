@@ -58,19 +58,7 @@ form {
   opacity: 1;
   transform: scale(1);
 }
-/* disabled checkbox */
-[type="checkbox"]:disabled:not(:checked) + label:before,
-[type="checkbox"]:disabled:checked + label:before {
-  box-shadow: none;
-  border-color: #bbb;
-  background-color: #ddd;
-}
-[type="checkbox"]:disabled:checked + label:after {
-  color: #999;
-}
-[type="checkbox"]:disabled + label {
-  color: #aaa;
-}
+
 /* accessibility */
 [type="checkbox"]:checked:focus + label:before,
 [type="checkbox"]:not(:checked):focus + label:before {
@@ -89,21 +77,22 @@ label:hover:before {
 <div align="center">
     <form action="#">
     <p>
-        <input type="checkbox" id="tomatoes" />
+        <input type="checkbox" name="ingredient" value="tomatoes" id="tomatoes" />
         <label for="tomatoes">Tomatoes</label>
     </p>
     <p>
-        <input type="checkbox" id="parmesan"/>
+        <input type="checkbox" name="ingredient" value="parmesan" id="parmesan"/>
         <label for="parmesan">Parmesan</label>
     </p>
     <p>
-        <input type="checkbox" id="chickenbreast" />
-        <label for="chickenbreast">Chicken Breast</label>
+        <input type="checkbox" name="ingredient" value="chicken_breast" id="chicken_breast"/>
+        <label for="chicken_breast">Chicken Breast</label>
     </p>
     <p>
-        <input type="checkbox" id="onions"/>
+        <input type="checkbox" name="ingredient" value="onions" id="onions"/>
         <label for="onions">Onions</label>
     </p>
+        <input type="submit" value="Find my recipe!">
     </form>
 </div>
 </body>
