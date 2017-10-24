@@ -14,9 +14,14 @@ def welcome_page():
 
 @app.route('/ingredients', methods=['GET', 'POST'])
 def ingredients():
-    if request.method == 'POST':
-        print (request.form.getlist('ingredient'))
     return render_template('ingredients.html')
+
+@app.route('/recommended', methods=['GET', 'POST'])
+def result():
+    if request.method == 'POST':
+        result = request.form
+        print result
+        return render_template("recommended.html", result=result)
 
 if __name__ == '__main__':
     app.run()

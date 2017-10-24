@@ -75,7 +75,7 @@ label:hover:before {
 <body>
     <h1>Select your ingredients here.</h1>
 <div align="center">
-    <form action="#">
+    <form action="http://localhost:5000/recommended" method="POST">
     <p>
         <input type="checkbox" name="ingredient" value="tomatoes" id="tomatoes" />
         <label for="tomatoes">Tomatoes</label>
@@ -85,8 +85,8 @@ label:hover:before {
         <label for="parmesan">Parmesan</label>
     </p>
     <p>
-        <input type="checkbox" name="ingredient" value="chicken_breast" id="chicken_breast"/>
-        <label for="chicken_breast">Chicken Breast</label>
+        <input type="checkbox" name="ingredient" value="chicken_breasts" id="chicken_breasts"/>
+        <label for="chicken_breasts">Chicken Breasts</label>
     </p>
     <p>
         <input type="checkbox" name="ingredient" value="onions" id="onions"/>
