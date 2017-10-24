@@ -1,154 +1,154 @@
 @prefix fo: <http://purl.org/ontology/fo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rec: <http://yummly.com/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yum: <http://yummly.com/> .
 
 <http://yummly.com/(5-ingredient)_Italian_Caprese_Pasta> a fo:Recipe .
 
-rec:Baba_Ghanoush_Topped_with_Lamb_and_Yogurt a fo:Recipe .
+yum:Baba_Ghanoush_Topped_with_Lamb_and_Yogurt a fo:Recipe .
 
-rec:Braised_Italian_Pot_Roast a fo:Recipe .
+yum:Braised_Italian_Pot_Roast a fo:Recipe .
 
-rec:Easy_Garlic_and_Lemon_Shrimp a fo:Recipe .
+yum:Easy_Garlic_and_Lemon_Shrimp a fo:Recipe .
 
-rec:Easy_Peasy_Skillet_Lasagna a fo:Recipe .
+yum:Easy_Peasy_Skillet_Lasagna a fo:Recipe .
 
-rec:Italian_Chicken_Panini a fo:Recipe .
+yum:Italian_Chicken_Panini a fo:Recipe .
 
-rec:Italian_bread a fo:Ingredient .
+yum:Italian_bread a fo:Ingredient .
 
 <http://yummly.com/Macaroni_with_Greens,_Lemon,_and_Parmesan> a fo:Recipe .
 
-rec:Mediterranean_Pork_Chops a fo:Recipe .
+yum:Mediterranean_Pork_Chops a fo:Recipe .
 
-rec:Spaghetti_Aglio_e_Olio a fo:Recipe .
+yum:Spaghetti_Aglio_e_Olio a fo:Recipe .
 
-rec:Spinach_and_Ricotta_with_Shells a fo:Recipe .
+yum:Spinach_and_Ricotta_with_Shells a fo:Recipe .
 
-rec:angel_hair a fo:Ingredient .
+yum:angel_hair a fo:Ingredient .
 
-rec:baby_spinach a fo:Ingredient .
+yum:baby_spinach a fo:Ingredient .
 
-rec:basil_leaves a fo:Ingredient .
+yum:basil_leaves a fo:Ingredient .
 
-rec:black_pepper a fo:Ingredient .
+yum:black_pepper a fo:Ingredient .
 
-rec:butter a fo:Ingredient .
+yum:butter a fo:Ingredient .
 
-rec:cherry_tomatoes a fo:Ingredient .
+yum:cherry_tomatoes a fo:Ingredient .
 
-rec:chicken_breasts a fo:Ingredient .
+yum:chicken_breasts a fo:Ingredient .
 
 <http://yummly.com/clove_garlic,_fine_chop> a fo:Ingredient .
 
-rec:cooking_spray a fo:Ingredient .
+yum:cooking_spray a fo:Ingredient .
 
-rec:crushed_red_pepper_flakes a fo:Ingredient .
+yum:crushed_red_pepper_flakes a fo:Ingredient .
 
-rec:cumin a fo:Ingredient .
+yum:cumin a fo:Ingredient .
 
-rec:diced_tomatoes a fo:Ingredient .
+yum:diced_tomatoes a fo:Ingredient .
 
-rec:eggplant a fo:Ingredient .
+yum:eggplant a fo:Ingredient .
 
-rec:extra-virgin_olive_oil a fo:Ingredient .
+yum:extra-virgin_olive_oil a fo:Ingredient .
 
-rec:feta_cheese a fo:Ingredient .
+yum:feta_cheese a fo:Ingredient .
 
-rec:finely_chopped_fresh_parsley a fo:Ingredient .
+yum:finely_chopped_fresh_parsley a fo:Ingredient .
 
-rec:fresh_basil a fo:Ingredient .
+yum:fresh_basil a fo:Ingredient .
 
-rec:fresh_mozzarella_cheese a fo:Ingredient .
+yum:fresh_mozzarella_cheese a fo:Ingredient .
 
-rec:fresh_rosemary a fo:Ingredient .
+yum:fresh_rosemary a fo:Ingredient .
 
-rec:freshly_ground_black_pepper a fo:Ingredient .
+yum:freshly_ground_black_pepper a fo:Ingredient .
 
-rec:garlic a fo:Ingredient .
+yum:garlic a fo:Ingredient .
 
-rec:garlic_cloves a fo:Ingredient .
+yum:garlic_cloves a fo:Ingredient .
 
-rec:grated_parmesan_cheese a fo:Ingredient .
+yum:grated_parmesan_cheese a fo:Ingredient .
 
-rec:greens a fo:Ingredient .
+yum:greens a fo:Ingredient .
 
-rec:italian_seasoning a fo:Ingredient .
+yum:italian_seasoning a fo:Ingredient .
 
-rec:jumbo_shrimp a fo:Ingredient .
+yum:jumbo_shrimp a fo:Ingredient .
 
-rec:kosher_salt a fo:Ingredient .
+yum:kosher_salt a fo:Ingredient .
 
-rec:lamb a fo:Ingredient .
+yum:lamb a fo:Ingredient .
 
-rec:lasagna_noodles a fo:Ingredient .
+yum:lasagna_noodles a fo:Ingredient .
 
-rec:lemon a fo:Ingredient .
+yum:lemon a fo:Ingredient .
 
-rec:lemon_juice a fo:Ingredient .
+yum:lemon_juice a fo:Ingredient .
 
-rec:lemon_zest a fo:Ingredient .
+yum:lemon_zest a fo:Ingredient .
 
-rec:macaroni a fo:Ingredient .
+yum:macaroni a fo:Ingredient .
 
-rec:meat_bones a fo:Ingredient .
+yum:meat_bones a fo:Ingredient .
 
-rec:minced_garlic a fo:Ingredient .
+yum:minced_garlic a fo:Ingredient .
 
-rec:mozzarella_cheese a fo:Ingredient .
+yum:mozzarella_cheese a fo:Ingredient .
 
-rec:mushrooms a fo:Ingredient .
+yum:mushrooms a fo:Ingredient .
 
-rec:olive_oil a fo:Ingredient .
+yum:olive_oil a fo:Ingredient .
 
-rec:onions a fo:Ingredient .
+yum:onions a fo:Ingredient .
 
-rec:parmesan_cheese a fo:Ingredient .
+yum:parmesan_cheese a fo:Ingredient .
 
-rec:parmigiano_reggiano_cheese a fo:Ingredient .
+yum:parmigiano_reggiano_cheese a fo:Ingredient .
 
-rec:parsley a fo:Ingredient .
+yum:parsley a fo:Ingredient .
 
-rec:part-skim_mozzarella_cheese a fo:Ingredient .
+yum:part-skim_mozzarella_cheese a fo:Ingredient .
 
-rec:pasta_shells a fo:Ingredient .
+yum:pasta_shells a fo:Ingredient .
 
-rec:pepper a fo:Ingredient .
+yum:pepper a fo:Ingredient .
 
-rec:pesto a fo:Ingredient .
+yum:pesto a fo:Ingredient .
 
-rec:pitas a fo:Ingredient .
+yum:pitas a fo:Ingredient .
 
-rec:red_onion a fo:Ingredient .
+yum:red_onion a fo:Ingredient .
 
-rec:red_wine a fo:Ingredient .
+yum:red_wine a fo:Ingredient .
 
-rec:ricotta_cheese a fo:Ingredient .
+yum:ricotta_cheese a fo:Ingredient .
 
-rec:roasted_red_peppers a fo:Ingredient .
+yum:roasted_red_peppers a fo:Ingredient .
 
-rec:salt a fo:Ingredient .
+yum:salt a fo:Ingredient .
 
-rec:salted_butter a fo:Ingredient .
+yum:salted_butter a fo:Ingredient .
 
-rec:sea_salt a fo:Ingredient .
+yum:sea_salt a fo:Ingredient .
 
-rec:shoulder_roast a fo:Ingredient .
+yum:shoulder_roast a fo:Ingredient .
 
-rec:smoked_paprika a fo:Ingredient .
+yum:smoked_paprika a fo:Ingredient .
 
-rec:spaghetti a fo:Ingredient .
+yum:spaghetti a fo:Ingredient .
 
-rec:sweet_onion a fo:Ingredient .
+yum:sweet_onion a fo:Ingredient .
 
-rec:tahini a fo:Ingredient .
+yum:tahini a fo:Ingredient .
 
-rec:tomato_sauce a fo:Ingredient .
+yum:tomato_sauce a fo:Ingredient .
 
-rec:whole_milk_ricotta_cheese a fo:Ingredient .
+yum:whole_milk_ricotta_cheese a fo:Ingredient .
 
-rec:yogurt a fo:Ingredient .
+yum:yogurt a fo:Ingredient .
 
-rec:zesty_italian_dressing a fo:Ingredient .
+yum:zesty_italian_dressing a fo:Ingredient .
